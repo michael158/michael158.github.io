@@ -17,8 +17,8 @@ class HomePageHeaderTitle extends StatelessWidget {
           'Olá,',
           style: _textStyle,
         ),
-        RichText(
-          text: TextSpan(
+        Text.rich(
+          TextSpan(
             style: _textStyle,
             children: [
               const TextSpan(

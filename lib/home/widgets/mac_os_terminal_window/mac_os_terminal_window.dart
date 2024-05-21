@@ -12,7 +12,7 @@ class MacOsTerminalWindow extends StatelessWidget {
       width: double.infinity,
       constraints: const BoxConstraints(maxHeight: 500.0),
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(10),
+        borderRadius: const BorderRadius.all(Radius.circular(10)),
         border: Border.all(
           color: MColors.borderColor,
         ),

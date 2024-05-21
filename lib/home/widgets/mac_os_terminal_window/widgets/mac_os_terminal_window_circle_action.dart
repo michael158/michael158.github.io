@@ -15,7 +15,7 @@ class MacOsTerminalWindowCircleAction extends StatelessWidget {
       width: size,
       height: size,
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(50.0),
+        borderRadius: const BorderRadius.all(Radius.circular(50.0)),
         color: color,
       ),
     );

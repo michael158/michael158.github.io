@@ -3,14 +3,9 @@ import 'package:michael_profile/colors/colors.dart';
 import 'package:michael_profile/home/widgets/home_page_desktop_layout.dart';
 import 'package:michael_profile/home/widgets/home_page_mobile_layout.dart';
 
-class HomePage extends StatefulWidget {
+class HomePage extends StatelessWidget {
   const HomePage({super.key});
 
-  @override
-  State<HomePage> createState() => _HomePageState();
-}
-
-class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     double padding = MediaQuery.sizeOf(context).width / 20;

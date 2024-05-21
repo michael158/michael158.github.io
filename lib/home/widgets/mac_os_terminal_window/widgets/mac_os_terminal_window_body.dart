@@ -21,10 +21,11 @@ class MacOsTerminalWindowBody extends StatelessWidget {
   String get _code => """{
       name: "Michael Douglas",
       skills: [
-        "Flutter", "React", "Vue.js", "PHP", "Dart", "Express"
-        "Javascript", "Git", "AWS", "Node JS", "Laravel",
-        "Mongo DB", "MySql", "PostgreSQL", "Oracle", "SQL Server",
-        "Arduino", "Alexa", "Google Home", "IOT", "Android", "Ios",
+        "Flutter", "React", "Vue.js", "PHP", "Dart",
+        "Express", "Javascript", "Git", "AWS", "Node JS",
+        "Laravel", "Mongo DB", "MySql", "PostgreSQL", 
+        "Oracle", "SQL Server", "Arduino", "Alexa",
+        "Google Home", "IOT", "Android", "Ios",
         "Docker", "Solid", "Mobx", "Providers"
       ],
       hardWorker: true,

@@ -7,7 +7,6 @@ import 'package:provider/provider.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
-
   runApp(
     ChangeNotifierProvider(
       create: (context) => HomePageLocaleWidgetController(),
@@ -68,6 +67,10 @@ class _MyAppState extends State<MyApp> {
 
   @override
   Widget build(BuildContext context) {
+    LocalJsonLocalization.delegate.directories = [
+      'assets/lang/i18n',
+    ];
+
     return MaterialApp(
       title: 'Michael Douglas',
       debugShowCheckedModeBanner: false,

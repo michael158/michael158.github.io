@@ -48,7 +48,7 @@ class HomePageHeaderTitle extends StatelessWidget {
           ],
         ),
         Text(
-          'Através de códigos, transformo idéias em realidade.',
+          'Através de códigos, transformo ideias em realidade.',
           style: _textStyle.copyWith(
             fontSize: 26.0,
             color: Colors.white70,

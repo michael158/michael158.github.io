@@ -1,7 +1,8 @@
-import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:michael_profile/colors/colors.dart';
 import 'package:michael_profile/home/widgets/home_page_animated_text.dart';
+import 'package:michael_profile/colors/colors.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:localization/localization.dart';
+import 'package:flutter/material.dart';
 
 class HomePageHeaderTitle extends StatelessWidget {
   final bool isMobile;
@@ -14,21 +15,21 @@ class HomePageHeaderTitle extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.start,
       children: [
         Text(
-          'Olá,',
+          'home-page-hello-text'.i18n(),
           style: _textStyle,
         ),
         Text.rich(
           TextSpan(
             style: _textStyle,
             children: [
-              const TextSpan(
-                text: 'Meu nome é ',
-                style: TextStyle(
+              TextSpan(
+                text: '${'home-page-my-name-text'.i18n()} ',
+                style: const TextStyle(
                   fontSize: 62.0,
                 ),
               ),
               TextSpan(
-                text: 'Michael Douglas',
+                text: 'home-page-name-text'.i18n(),
                 style: TextStyle(
                   fontWeight: FontWeight.w900,
                   color: MColors.primary,
@@ -41,14 +42,14 @@ class HomePageHeaderTitle extends StatelessWidget {
         Wrap(
           children: <Widget>[
             Text(
-              'Eu sou um ',
+              '${'home-page-iam-text'.i18n()} ',
               style: _textStyle,
             ),
             HomePageAnimatedText(isMobile: isMobile),
           ],
         ),
         Text(
-          'Através de códigos, transformo ideias em realidade.',
+          'home-page-iam-description-text'.i18n(),
           style: _textStyle.copyWith(
             fontSize: 26.0,
             color: Colors.white70,

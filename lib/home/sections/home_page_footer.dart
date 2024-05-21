@@ -1,5 +1,6 @@
-import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:localization/localization.dart';
+import 'package:flutter/material.dart';
 
 class HomePageFooter extends StatelessWidget {
   const HomePageFooter({super.key});
@@ -10,7 +11,7 @@ class HomePageFooter extends StatelessWidget {
       child: Padding(
         padding: const EdgeInsets.symmetric(vertical: 20.0),
         child: Text(
-          'Desenvolvido com ♥, utilizando Flutter',
+          'home-page-footer-message'.i18n(),
           style: GoogleFonts.roboto(
             color: Colors.white,
           ),

@@ -23,10 +23,10 @@ class MacOsTerminalWindowBody extends StatelessWidget {
       skills: [
         "Flutter", "React", "Vue.js", "PHP", "Dart",
         "Express", "Javascript", "Git", "AWS", "Node JS",
-        "Laravel", "Mongo DB", "MySql", "PostgreSQL", 
-        "Oracle", "SQL Server", "Arduino", "Alexa",
-        "Google Home", "IOT", "Android", "Ios",
-        "Docker", "Solid", "Mobx"
+        "Restify", "Laravel", "Mongo DB", "MySql", 
+        "PostgreSQL", "Oracle", "SQL Server", 
+        "Alexa", "Google Home", "IOT", "Arduino",
+        "Docker", "Solid", "Mobx","Android", "Ios",
       ],
       hardWorker: true,
       quickLearner: true,
@@ -42,7 +42,7 @@ class MacOsTerminalWindowBody extends StatelessWidget {
         numberStyle: const TextStyle(color: Color(0xFF6BC1FF)),
         commentStyle: const TextStyle(color: Color(0xFF9E9E9E)),
         keywordStyle: TextStyle(color: MColors.primary),
-        stringStyle: const TextStyle(color: Color(0xFF93ffab)),
+        stringStyle: TextStyle(color: MColors.secondary),
         punctuationStyle: const TextStyle(color: Color(0xFFFFFFFF)),
         classStyle: TextStyle(color: MColors.secondary),
         constantStyle: const TextStyle(color: Color(0xFF795548)),

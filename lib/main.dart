@@ -88,6 +88,7 @@ class _MyAppState extends State<MyApp> {
         Locale('pt', 'BR'),
         Locale('en', 'US'),
         Locale('es', 'ES'),
+        Locale('zh', 'CN'),
       ],
       home: const HomePage(),
     );

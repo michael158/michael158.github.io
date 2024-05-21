@@ -55,6 +55,14 @@ class _HomePageLocaleWidgetState extends State<HomePageLocaleWidget> {
               ),
               onTap: () => _controller.setLocale(const Locale('es', 'ES')),
             ),
+            InkWell(
+              child: Flag.fromCode(
+                FlagsCode.CN,
+                width: flagSize,
+                height: flagSize,
+              ),
+              onTap: () => _controller.setLocale(const Locale('zh', 'CN')),
+            ),
           ],
         ),
       ),

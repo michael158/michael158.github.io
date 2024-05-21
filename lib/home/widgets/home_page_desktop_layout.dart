@@ -16,8 +16,8 @@ class HomePageDesktopLayout extends StatelessWidget {
           child: Flex(
             direction: Axis.horizontal,
             children: [
-              Flexible(flex: 1, child: HomePageLeftContent()),
-              Flexible(flex: 1, child: HomePageRightContent()),
+              Expanded(flex: 1, child: HomePageLeftContent()),
+              Expanded(flex: 1, child: HomePageRightContent()),
             ],
           ),
         ),

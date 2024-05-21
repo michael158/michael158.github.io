@@ -27,7 +27,7 @@ class MacOsTerminalWindowBody extends StatelessWidget {
         "PostgreSQL", "Oracle", "SQL Server", 
         "Alexa", "Google Home", "IOT", "Arduino",
         "Docker", "Solid", "Mobx","Android", "Ios",
-        "Html", "CSS"
+        "Html", "CSS", "Clean Architecture"
       ],
       hardWorker: true,
       quickLearner: true,

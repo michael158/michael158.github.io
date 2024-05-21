@@ -18,7 +18,7 @@ class MacOsTerminalWindowHeader extends StatelessWidget {
         ),
       ),
       child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 20.0),
+        padding: const EdgeInsets.all(20.0),
         child: Wrap(
           alignment: WrapAlignment.start,
           spacing: 10.0,

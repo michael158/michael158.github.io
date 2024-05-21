@@ -23,14 +23,16 @@ class HomePageIconButton extends StatelessWidget {
         color: MColors.primary.withOpacity(0.8),
         size: 39.0,
       ),
-      onPressed: () {
-        if (url?.isNotEmpty ?? false) {
-          js.globalContext.callMethod(
-            'open' as js.JSAny,
-            [url] as js.JSAny?,
-          ); //
-        }
-      },
+      onPressed: _handleTapIcon,
     );
+  }
+
+  void _handleTapIcon() {
+    if (url?.isNotEmpty ?? false) {
+      js.globalContext.callMethod(
+        'open' as js.JSAny,
+        [url] as js.JSAny?,
+      ); //
+    }
   }
 }
